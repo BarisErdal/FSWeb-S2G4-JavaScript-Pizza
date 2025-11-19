@@ -365,6 +365,82 @@ footer {
 
     background-color: var(--koyu-gri);
     width:100vw;
-    height:100px;
-    border: 5px solid red;
+    height:35rem;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    font-family: Barlow;
+    color:white;
+    padding: 3.627rem;
+    
+}
+
+
+
+
+.contacts-infos{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    margin-top:1rem;
+    
+
+}
+
+
+.contact-info {
+
+display:flex;
+flex-direction:row;
+}
+
+.contact-info img{
+    height:1.75rem;
+    width:1.75rem;
+    margin-right: 0.8125rem;
+
+}
+
+.footer-div {
+
+    display:flex;
+    justify-content:space-between;
+    gap:3.5rem;
+}
+
+.menu-linkler{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.menu-linkler a{
+font-family: Barlow;
+font-weight: 400;
+font-size: 1.5rem;
+text-decoration:none;
+color:white;
+
+}
+
+.instagram{
+   display:flex;
+   flex-direction:column;
+   
+}
+.instagram-photos {
+
+ display:flex;
+    flex-wrap: wrap;
+     width: 50%;
+    align-content:center;
+    gap: 0.5rem;
+
+}
+.instagram-photos img{
+
+    width: 6.625rem;
+    height:6.625rem;
+
 }
