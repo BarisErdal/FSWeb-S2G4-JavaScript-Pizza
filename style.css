@@ -370,11 +370,11 @@ footer {
     flex-direction:column;
     align-items: center;
     justify-content:center;
+    
     font-family: Barlow;
     color:white;
     padding: 3.627rem;
-    
-}
+  
 
 
 
@@ -405,8 +405,10 @@ flex-direction:row;
 .footer-div {
 
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     gap:3.5rem;
+    width:80vw;
+       
 }
 
 .menu-linkler{
@@ -424,16 +426,25 @@ color:white;
 
 }
 
+footer h3 {
+
+font-family: Barlow;
+font-weight: 500;
+font-size: 1.5rem;
+margin-bottom: 1.5rem;
+}
+
 .instagram{
    display:flex;
    flex-direction:column;
+   width:21.68rem;
    
 }
 .instagram-photos {
 
  display:flex;
     flex-wrap: wrap;
-     width: 50%;
+     width: 100%;
     align-content:center;
     gap: 0.5rem;
 
@@ -441,6 +452,19 @@ color:white;
 .instagram-photos img{
 
     width: 6.625rem;
-    height:6.625rem;
+height:6.625rem;
+
+}
+
+.copyright {
+
+    display:flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    width:100vw;
+    height:5.625rem;
+    border-top: 1px solid #FFFFFF26;
+    margin-top:3rem;
 
 }
