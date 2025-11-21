@@ -16,12 +16,12 @@ header {
 }
 .header-container {
 background-image: url("./public/assets/iteration-1/home-banner.png");
- max-height: 100vh;
+
   background-size: cover;
 
 object-fit:cover;
 width: 100vw;
-height:100vh;
+
 display:flex;
 flex-direction: column;
 align-items:center;
@@ -78,7 +78,7 @@ margin-top: 13px;
     display:flex;
     justify-content:center;
     gap:2rem;
-    width:100%;
+    width:100vw;
     padding: 2rem 3rem;
     background-color:white;
 
@@ -110,7 +110,7 @@ margin-right:1rem;
 .tanitim-red {
     
     background-image: url("./public/assets/iteration-2/cta/kart-1.png");
-    background-position: cover;
+    background-position: left center;
     
     height: 28.125rem;
     width:33.1875rem;
@@ -378,6 +378,7 @@ footer {
     font-family: Barlow;
     color:white;
     padding: 3.627rem;
+    margin-right: 0;
 }
 
 
@@ -482,9 +483,15 @@ height:6.625rem;
 /* ----------------------------- */
 @media (max-width: 480px) {
 
-  /* HEADER */
+body {
+display:flex;
+flex-direction: column;
+}
+
+
+
 header {
-  width:430px;
+  width:100vw;
   height: 100vh;
 }
 
@@ -492,10 +499,10 @@ header {
 background-position:center; }
 
 .aciktirir{
-font-weight: 200;
-font-size: 30px;
-line-height: 30px;
-width:20rem;
+//
+font-size: 20px;
+
+max-width:400px;
 }
 
 .header-nav {
@@ -532,12 +539,26 @@ footer {
 .tanitim-banner {
 
   flex-wrap:wrap;
+  margin-top: -2rem;
 }
 
-.tanitim-red {
-  height: 28.125rem;
-    width:33.1875px;
+.tanitim-hizli {
+width:100vw;
 
+}
+
+
+.products {
+
+margin-top:30rem;
+
+}
+.products-items {
+ display:flex;
+  flex-wrap:wrap;
+  width:70%;
+  justify-content: space-between;
+  
 }
 
 }
