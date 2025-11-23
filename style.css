@@ -3,10 +3,14 @@
   --bej: #FAF7F2;
   --kirmizi: #CE2829;
   --koyu-gri: #292929;
+  --acik-gri: #5F5F5F
+  
 }
 
 /* HEADER*/
-body{ background-color: var(--bej)}
+body { 
+    background-color: var(--bej)
+}
 
 header {
     display:flex;
@@ -15,57 +19,55 @@ header {
     
 }
 .header-container {
-background-image: url("./public/assets/iteration-1/home-banner.png");
-
-  background-size: cover;
-
-object-fit:cover;
-width: 100vw;
-
-display:flex;
-flex-direction: column;
-align-items:center;
-   justify-content: flex-start;
+    background-image: url("./public/assets/iteration-1/home-banner.png");
+    background-size: cover;
+    object-fit:cover;
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-start;
 
 }
 
 .header-container .firsat{ 
-font-family: "Satisfy", cursive;
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 44px;
-color:var(--sari);
+    font-family: "Satisfy", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color:var(--sari);
 }
 
-.header-container .aciktirir{ 
-font-family: "Roboto Condensed", sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 86px;
-line-height: 92px;
-width:40rem;
-color: #FFFFFF;
-text-align:center;
+.aciktirir{ 
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 86px;
+    line-height: 92px;
+    width:40rem;
+    color: #FFFFFF;
+    text-align:center;
 }
 
 
 .header-container a{
-font-family: "Barlow", sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-text-align: center;
-color: #292929;
-text-decoration:none;
-background-color:var(--sari);
-border-radius:50px;
-width:12rem;
-height:3.5rem;
-display:flex;
-align-items:center;
-justify-content:center;
-margin-top: 13px;
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #292929;
+    text-decoration:none;
+    background-color:var(--sari);
+    border-radius:50px;
+    width:12rem;
+    height:3.5rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 13px;
 }
 
 .header-container img {
@@ -89,17 +91,17 @@ margin-top: 13px;
     display:flex;
     text-decoration:none;
     font-family: "Barlow", sans-serif;
-align-items: center;
-justify-content:center;
-font-weight: 500;
-font-size: 1rem;
-line-height: 32px;
+    align-items: center;
+    justify-content:center;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 32px;
 
 }
 
 .header-nav img{ 
 
-margin-right:1rem;
+    margin-right:1rem;
 
 }
 
@@ -124,21 +126,21 @@ margin-right:1rem;
 
 .tanitim-siyah {
     background-image: url("./public/assets/iteration-2/cta/kart-2.png");
-height: 220px;
-background-size: contain;
-border-radius:0.5rem;
-padding:1.5rem 1.5rem;
+    height: 220px;
+    background-size: contain;
+    border-radius:0.5rem;
+    padding:1.5rem 1.5rem;
 }
 
     
 .tanitim-hizli {
-background-image: url("./public/assets/iteration-2/cta/kart-3.png");
-background-size: contain;
-height: 230px;
-width:530px;
-border-radius:0.5rem;
-font-size:1.5rem;
-padding:1.5rem 2rem;
+    background-image: url("./public/assets/iteration-2/cta/kart-3.png");
+    background-size: contain;
+    height: 230px;
+    width:530px;
+    border-radius:0.5rem;
+    font-size:1.5rem;
+    padding:1.5rem 2rem;
 
 }
 
@@ -148,8 +150,8 @@ padding:1.5rem 2rem;
     justify-content:center;
     align-items: center;
     gap: 11px;
-height: 28.125rem;
-margin-top:4.25rem;
+    height: 28.125rem;
+    margin-top:4.25rem;
   
 
 }
@@ -170,21 +172,21 @@ margin-top:4.25rem;
 .siparis-ver {
 
     
-border-radius: 50px;
-background-color:white;
-padding: 1.5rem;
-text-decoration:none;
-font-family: "Barlow", sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-width:138px;
-height:48px;
-color: var(--kirmizi);
-display:flex;
-align-items:center;
-justify-content:center;
-margin-top:1rem;
+    border-radius: 50px;
+    background-color:white;
+    padding: 1.5rem;
+    text-decoration:none;
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    width:138px;
+    height:48px;
+    color: var(--kirmizi);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:1rem;
 }
 
 
@@ -200,22 +202,18 @@ margin-top:1rem;
 
 .tanitim-red p {
 
-font-family: 'Barlow';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 27px;
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
-
-
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
 }
 
 
 .tanitim-red a {
-
     margin-top: 28px;
 }
 
@@ -226,11 +224,9 @@ color: #FFFFFF;
     flex-direction:column;
     padding: 2rem;
     
-
 }
 
 .tanitim-siyah h2 {
-
     color:white;
 }
 
@@ -338,11 +334,11 @@ margin-bottom: 4rem;
 
 .pizza-infos p {
 
- font-family: Barlow;
- color: #1B1B1BB2;
-font-weight: 600;
-font-size: 1rem;
-vertical-align: middle;
+    font-family: Barlow;
+    color: #1B1B1BB2;
+    font-weight: 600;
+    font-size: 1rem;
+    vertical-align: middle;
 
 }
 
@@ -396,8 +392,8 @@ footer {
 
 .contact-info {
 
-display:flex;
-flex-direction:row;
+    display:flex;
+    flex-direction:row;
 }
 
 .contact-info img{
@@ -424,20 +420,20 @@ flex-direction:row;
 }
 
 .menu-linkler a{
-font-family: Barlow;
-font-weight: 400;
-font-size: 1.5rem;
-text-decoration:none;
-color:white;
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-decoration:none;
+    color:white;
 
 }
 
 footer h3 {
 
-font-family: Barlow;
-font-weight: 500;
-font-size: 1.5rem;
-margin-bottom: 1.5rem;
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .instagram{
@@ -497,12 +493,25 @@ header {
 
 .header-container {
 background-position:center; }
+.firsat {
 
+    display:none;
+}
 .aciktirir{
-//
-font-size: 20px;
 
-max-width:400px;
+font-family: Roboto Condensed;
+font-weight: 300;
+font-style: Light;
+font-size: 60px;
+
+
+
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+line-height:4rem;
+margin-top: -2rem;
+max-width:300px;
 }
 
 .header-nav {
@@ -546,7 +555,10 @@ footer {
 width:100vw;
 
 }
+.tanitim-red {
+margin-top: 1rem;
 
+}
 
 .products {
 
